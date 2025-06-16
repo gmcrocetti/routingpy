@@ -3380,4 +3380,4 @@ notebooks = ["contextily", "descartes", "geopandas", "ipykernel", "matplotlib", 
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.9.0"
-content-hash = "ead904e178c1b7969d778844a585816929db782c48655f022c6782491f551b5e"
+content-hash = "29a232ed79993ccb2670a6b6c599002dba81ff97a1983f4b089c4eadc6d361f2"

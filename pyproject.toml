@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
+requires = ["setuptools>=68", "wheel", "setuptools_scm>=7.1"]
 build-backend = "setuptools.build_meta"
 
 [tool.poetry]
@@ -44,7 +44,7 @@ coverage = "^7.0.0"
 pre-commit = "^2.7.1"
 pytest = "^7.0.0"
 build = "^0.7.0"
-setuptools-scm = "^7.0.0"
+setuptools-scm = "^7.1.0"
 
 [tool.setuptools_scm]
 write_to = "routingpy/__version__.py"
