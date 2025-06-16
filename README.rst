@@ -1,10 +1,8 @@
-In case anyone has interest to take over this repository, please write me on my public email. To be eligible you should have a proven track record of FOSS python projects and ideally some PyPI package management experience.
-
 routingpy
 ==========
 
-.. image:: https://github.com/gis-ops/routing-py/workflows/tests/badge.svg
-    :target: https://github.com/gis-ops/routing-py/actions/workflows/ci-tests.yml
+.. image:: https://github.com/mthh/routingpy/workflows/tests/badge.svg
+    :target: https://github.com/mthh/routingpy/actions/workflows/ci-tests.yml
     :alt: tests
 
 .. image:: https://readthedocs.org/projects/routingpy/badge/?version=latest
@@ -12,9 +10,14 @@ routingpy
     :alt: Documentation Status
 
 .. image:: https://mybinder.org/badge_logo.svg
-    :target: https://mybinder.org/v2/gh/gis-ops/routing-py/master?filepath=examples
+    :target: https://mybinder.org/v2/gh/mthh/routingpy/master?filepath=examples
     :alt: MyBinder.org
 
+
+> **Project Update (June 2025):** *A new maintainer has taken over the project as of June 16, 2025.*
+*Over the coming weeks, I'll be reviewing the codebase, triaging issues and pull requests,*
+*and identifying areas that may need updating.*
+*A new release is targeted for July 2025. Stay tuned for updates!*
 
 *One lib to route them all* - **routingpy** is a Python 3 client for several
 popular routing webservices.
@@ -37,7 +40,7 @@ or **time-distance matrices**.
 This list is hopefully growing with time and contributions by other developers. An up-to-date list is always available
 in our documentation_.
 
-**routing-py** is tested against CPython versions 3.8, 3.9, 3.10, 3.11. PyPy3 is currently not supported, see `#60 <https://github.com/gis-ops/routingpy/issues/60>`_.
+**routingpy** is tested against CPython versions 3.8, 3.9, 3.10, 3.11 and 3.12. PyPy3 is currently not supported, see `#60 <https://github.com/mthh/routingpy/issues/60>`_.
 
 © routingpy contributors 2022 under the `Apache 2.0 License`_.
 
@@ -87,7 +90,7 @@ Or the lastest from source
 
 .. code:: bash
 
-   pip install git+git://github.com/gis-ops/routingpy
+   pip install git+git://github.com/mthh/routingpy
 
 
 API
@@ -284,7 +287,7 @@ All these parameters, and more, can optionally be **globally set** for all route
         requests_kwargs=request_kwargs
     )
 
-    # Or alternvatively, set these options globally:
+    # Or alternatively, set these options globally:
     options.default_proxies = {'https': '129.125.12.0'}
     options.default_retry_over_query_limit = False
     options.default_skip_api_error = True
@@ -300,6 +303,6 @@ All these parameters, and more, can optionally be **globally set** for all route
 .. _Local OSRM: https://github.com/Project-OSRM/osrm-backend/wiki
 .. _documentation: https://routingpy.readthedocs.io/en/latest
 .. _routing-py.routers: https://routingpy.readthedocs.io/en/latest/#module-routingpy.routers
-.. _Apache 2.0 License: https://github.com/gis-ops/routing-py/blob/master/LICENSE
-.. _mybinder.org: https://mybinder.org/v2/gh/gis-ops/routing-py/master?filepath=examples
+.. _Apache 2.0 License: https://github.com/mthh/routingpy/blob/master/LICENSE
+.. _mybinder.org: https://mybinder.org/v2/gh/mthh/routingpy/master?filepath=examples
 .. _poetry: https://github.com/sdispater/poetry
