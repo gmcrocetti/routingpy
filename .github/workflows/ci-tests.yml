@@ -18,18 +18,19 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     strategy:
       matrix:
         python_version: [
-            3.9,  # only lowest & highest version should be enough, :cross_fingers:
-#            3.10,
-#            '3.11',
-            '3.12'
-            # pypy3  # didn't build on CI anymore, happy for help: https://github.com/gis-ops/routing-py/issues/60
+            '3.9',
+            '3.10',
+            '3.11',
+            '3.12',
+            '3.13'
+            # pypy3  # didn't build on CI anymore, happy for help: https://github.com/mthh/routingpy/issues/60
         ]
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Set up Python ${{ matrix.python_version }}
       uses: actions/setup-python@v4
@@ -37,7 +38,7 @@ jobs:
         python-version: ${{ matrix.python_version }}
         cache: pip
 
-    - uses: actions/cache@v3
+    - uses: actions/cache@v4
       with:
         path: ~/.cache/pre-commit
         key: pre-commit-${{ hashFiles('.pre-commit-config.yaml') }}
