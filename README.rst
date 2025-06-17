@@ -3,19 +3,23 @@ routingpy
 
 .. image:: https://github.com/mthh/routingpy/workflows/tests/badge.svg
     :target: https://github.com/mthh/routingpy/actions/workflows/ci-tests.yml
-    :alt: tests
+    :alt: Test Status
 
 .. image:: https://readthedocs.org/projects/routingpy/badge/?version=latest
     :target: https://routingpy.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
-.. image:: https://mybinder.org/badge_logo.svg
-    :target: https://mybinder.org/v2/gh/mthh/routingpy/master?filepath=examples
-    :alt: MyBinder.org
-
 .. image:: https://coveralls.io/repos/github/mthh/routingpy/badge.svg?branch=master
     :target: https://coveralls.io/github/mthh/routingpy
     :alt: Coverage Status
+
+.. image:: https://img.shields.io/pypi/dm/routingpy.svg
+    :target: https://pypi.org/project/routingpy/
+    :alt: Monthly Downloads
+
+.. image:: https://mybinder.org/badge_logo.svg
+    :target: https://mybinder.org/v2/gh/mthh/routingpy/master?filepath=examples
+    :alt: MyBinder.org
 
 > **Project Update (June 2025):** *A new maintainer has taken over the project as of June 16, 2025.*
 *Over the coming weeks, I'll be reviewing the codebase, triaging issues and pull requests,*
@@ -43,7 +47,7 @@ or **time-distance matrices**.
 This list is hopefully growing with time and contributions by other developers. An up-to-date list is always available
 in our documentation_.
 
-**routingpy** is tested against CPython versions 3.8, 3.9, 3.10, 3.11 and 3.12. PyPy3 is currently not supported, see `#60 <https://github.com/mthh/routingpy/issues/60>`_.
+**routingpy** is tested against CPython versions 3.9, 3.10, 3.11, 3.12 and 3.13. PyPy3 is currently not supported, see `#60 <https://github.com/mthh/routingpy/issues/60>`_.
 
 © routingpy contributors 2022 under the `Apache 2.0 License`_.
 
