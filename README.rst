@@ -13,6 +13,9 @@ routingpy
     :target: https://mybinder.org/v2/gh/mthh/routingpy/master?filepath=examples
     :alt: MyBinder.org
 
+.. image:: https://coveralls.io/repos/github/mthh/routingpy/badge.svg?branch=master
+    :target: https://coveralls.io/github/mthh/routingpy
+    :alt: Coverage Status
 
 > **Project Update (June 2025):** *A new maintainer has taken over the project as of June 16, 2025.*
 *Over the coming weeks, I'll be reviewing the codebase, triaging issues and pull requests,*
