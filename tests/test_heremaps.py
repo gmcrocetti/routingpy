@@ -25,7 +25,7 @@ from routingpy import HereMaps
 from routingpy.direction import Direction, Directions
 from routingpy.isochrone import Isochrone, Isochrones
 from routingpy.matrix import Matrix
-from tests.test_helper import *
+from tests.data.mock import *
 
 
 class HereMapsTest(_test.TestCase):

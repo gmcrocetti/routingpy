@@ -25,7 +25,7 @@ from routingpy import Google
 from routingpy.direction import Direction, Directions
 from routingpy.exceptions import RouterApiError, RouterServerError
 from routingpy.matrix import Matrix
-from tests.test_helper import *
+from tests.data.mock import *
 
 
 class GoogleTest(_test.TestCase):

@@ -27,7 +27,7 @@ from routingpy.direction import Direction, Directions
 from routingpy.isochrone import Isochrone, Isochrones
 from routingpy.matrix import Matrix
 from routingpy.utils import decode_polyline5
-from tests.test_helper import *
+from tests.data.mock import *
 
 
 class GraphhopperTest(_test.TestCase):

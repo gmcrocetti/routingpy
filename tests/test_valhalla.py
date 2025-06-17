@@ -35,7 +35,7 @@ from routingpy.valhalla_attributes import (
     Sidewalk,
     Surface,
 )
-from tests.test_helper import *
+from tests.data.mock import *
 
 
 class ValhallaTest(_test.TestCase):

@@ -26,7 +26,7 @@ from routingpy import OpenTripPlannerV2, convert
 from routingpy.direction import Direction, Directions
 from routingpy.isochrone import Isochrone, Isochrones
 from routingpy.raster import Raster
-from tests.test_helper import *
+from tests.data.mock import *
 
 
 class OpenTripPlannerV2Test(_test.TestCase):

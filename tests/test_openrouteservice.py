@@ -27,7 +27,7 @@ from routingpy import ORS
 from routingpy.direction import Direction
 from routingpy.isochrone import Isochrone, Isochrones
 from routingpy.matrix import Matrix
-from tests.test_helper import *
+from tests.data.mock import *
 
 
 class ORSTest(_test.TestCase):

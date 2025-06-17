@@ -24,7 +24,7 @@ import tests as _test
 from routingpy import OSRM, convert
 from routingpy.direction import Direction, Directions
 from routingpy.matrix import Matrix
-from tests.test_helper import *
+from tests.data.mock import *
 
 
 class OSRMTest(_test.TestCase):

@@ -26,7 +26,7 @@ from routingpy import MapboxOSRM, convert
 from routingpy.direction import Direction, Directions
 from routingpy.isochrone import Isochrone, Isochrones
 from routingpy.matrix import Matrix
-from tests.test_helper import *
+from tests.data.mock import *
 
 
 class MapboxOSRMTest(_test.TestCase):
