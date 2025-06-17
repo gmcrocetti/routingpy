@@ -56,7 +56,7 @@ class Matrix(object):
         return self._durations
 
     @property
-    def distances(self) -> Optional[List[List[float]]]:
+    def distances(self) -> Optional[List[List[Optional[float]]]]:
         """
         The distance matrix as list akin to::
 
