@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-**Unreleased** is available in Github's `master` branch, but not on PyPI.
+**Unreleased** is available in GitHub's `master` branch, but not on PyPI.
 
 ## **Unreleased**
 
@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Fixes taking into account the `preference` parameter when calculating isochrones and matrix with Valhalla ([#120](https://github.com/gis-ops/routingpy/issues/120))
 - Google's matrix checks each response element's status code [#122](https://github.com/gis-ops/routingpy/pull/122)
+- Fixed type hint on `Matrix.distances` and `Matrix.durations` [#132](https://github.com/mthh/routingpy/pull/132)
 
 ## [v1.3.0](https://pypi.org/project/routingpy/1.3.0/)
 
@@ -28,7 +29,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [v1.2.1](https://pypi.org/project/routingpy/1.2.1/)
 ### Fixed
-- Graphhopper 7.0 deprecated the "vehicle" parameter for the new "profile" parammeter
+- Graphhopper 7.0 deprecated the "vehicle" parameter for the new "profile" parameter
 
 
 ## [v1.2.0](https://pypi.org/project/routingpy/1.2.0/)
@@ -114,7 +115,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 - Add departure and arrival parameter for HERE isochrones API
 - OSRM Mapbox isochrone ranges were using floats (#2)
-- OSRM matrix ouputs distances array now (#6)
+- OSRM matrix outputs distances array now (#6)
 - Graphhopper isochrones used wrong vehicle parameter
 ### Changed
 - Profile parameter for HERE behaves now like other routers
