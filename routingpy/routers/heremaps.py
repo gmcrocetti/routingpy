@@ -1397,7 +1397,7 @@ class HereMaps:
             if index < (length - 1):
                 next_ = mtx_objects[index + 1]
             if "summary" not in obj:
-                logger.warn(
+                logger.warning(
                     "HERE matrix couldn't compute route for %s => %s",
                     obj["startIndex"],
                     obj["destinationIndex"],
